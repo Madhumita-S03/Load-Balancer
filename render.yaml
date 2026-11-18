@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: dispatch-load-balancer
+    runtime: docker
+    plan: free
+    healthCheckPath: /actuator/health
+    envVars:
+      - key: SPRING_DATASOURCE_DRIVER
+        value: org.postgresql.Driver
+      # Add SPRING_DATASOURCE_URL, SPRING_DATASOURCE_USERNAME and
+      # SPRING_DATASOURCE_PASSWORD in the Render dashboard after creating PostgreSQL.

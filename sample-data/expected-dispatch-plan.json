@@ -1,0 +1,368 @@
+{
+  "dispatchPlan": [
+    {
+      "vehicleId": "VEH001",
+      "capacity": 100.0,
+      "currentLatitude": 28.7041,
+      "currentLongitude": 77.1025,
+      "currentAddress": "Karol Bagh, Delhi, India",
+      "totalLoad": 100.0,
+      "remainingCapacity": 0.0,
+      "totalDistanceKm": 34.237,
+      "assignedOrders": [
+        {
+          "stopNumber": 1,
+          "orderId": "ORD018",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 10.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 14.442,
+          "cumulativeDistanceKm": 14.442
+        },
+        {
+          "stopNumber": 2,
+          "orderId": "ORD002",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 10.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 14.442
+        },
+        {
+          "stopNumber": 3,
+          "orderId": "ORD014",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 15.0,
+          "priority": "LOW",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 14.442
+        },
+        {
+          "stopNumber": 4,
+          "orderId": "ORD008",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 25.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 19.795,
+          "cumulativeDistanceKm": 34.237
+        },
+        {
+          "stopNumber": 5,
+          "orderId": "ORD023",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 30.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 34.237
+        },
+        {
+          "stopNumber": 6,
+          "orderId": "ORD012",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 10.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 34.237
+        }
+      ]
+    },
+    {
+      "vehicleId": "VEH002",
+      "capacity": 80.0,
+      "currentLatitude": 28.5355,
+      "currentLongitude": 77.391,
+      "currentAddress": "Sector 18, Noida, Uttar Pradesh, India",
+      "totalLoad": 75.0,
+      "remainingCapacity": 5.0,
+      "totalDistanceKm": 0.0,
+      "assignedOrders": [
+        {
+          "stopNumber": 1,
+          "orderId": "ORD004",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 25.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 2,
+          "orderId": "ORD020",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 30.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 3,
+          "orderId": "ORD027",
+          "latitude": 28.5355,
+          "longitude": 77.391,
+          "address": "Sector 18, Noida, Uttar Pradesh, India",
+          "packageWeight": 20.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        }
+      ]
+    },
+    {
+      "vehicleId": "VEH003",
+      "capacity": 120.0,
+      "currentLatitude": 28.4595,
+      "currentLongitude": 77.0266,
+      "currentAddress": "Cyber Hub, Gurgaon, Haryana, India",
+      "totalLoad": 115.0,
+      "remainingCapacity": 5.0,
+      "totalDistanceKm": 0.0,
+      "assignedOrders": [
+        {
+          "stopNumber": 1,
+          "orderId": "ORD013",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 25.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 2,
+          "orderId": "ORD005",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 30.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 3,
+          "orderId": "ORD009",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 15.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 4,
+          "orderId": "ORD017",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 15.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 5,
+          "orderId": "ORD024",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 15.0,
+          "priority": "LOW",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 6,
+          "orderId": "ORD028",
+          "latitude": 28.4595,
+          "longitude": 77.0266,
+          "address": "Cyber Hub, Gurgaon, Haryana, India",
+          "packageWeight": 15.0,
+          "priority": "LOW",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        }
+      ]
+    },
+    {
+      "vehicleId": "VEH004",
+      "capacity": 90.0,
+      "currentLatitude": 28.6139,
+      "currentLongitude": 77.209,
+      "currentAddress": "Connaught Place, Delhi, India",
+      "totalLoad": 90.0,
+      "remainingCapacity": 0.0,
+      "totalDistanceKm": 0.0,
+      "assignedOrders": [
+        {
+          "stopNumber": 1,
+          "orderId": "ORD001",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 15.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 2,
+          "orderId": "ORD029",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 30.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 3,
+          "orderId": "ORD021",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 25.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 4,
+          "orderId": "ORD025",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "address": "Connaught Place, Delhi, India",
+          "packageWeight": 20.0,
+          "priority": "MEDIUM",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        }
+      ]
+    },
+    {
+      "vehicleId": "VEH005",
+      "capacity": 110.0,
+      "currentLatitude": 28.7041,
+      "currentLongitude": 77.1025,
+      "currentAddress": "Karol Bagh, Delhi, India",
+      "totalLoad": 105.0,
+      "remainingCapacity": 5.0,
+      "totalDistanceKm": 0.0,
+      "assignedOrders": [
+        {
+          "stopNumber": 1,
+          "orderId": "ORD007",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "address": "Karol Bagh, Delhi, India",
+          "packageWeight": 20.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 2,
+          "orderId": "ORD011",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "address": "Karol Bagh, Delhi, India",
+          "packageWeight": 20.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 3,
+          "orderId": "ORD015",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "address": "Karol Bagh, Delhi, India",
+          "packageWeight": 20.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 4,
+          "orderId": "ORD026",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "address": "Karol Bagh, Delhi, India",
+          "packageWeight": 25.0,
+          "priority": "HIGH",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        },
+        {
+          "stopNumber": 5,
+          "orderId": "ORD019",
+          "latitude": 28.7041,
+          "longitude": 77.1025,
+          "address": "Karol Bagh, Delhi, India",
+          "packageWeight": 20.0,
+          "priority": "LOW",
+          "distanceFromPreviousKm": 0.0,
+          "cumulativeDistanceKm": 0.0
+        }
+      ]
+    }
+  ],
+  "unassignedOrders": [
+    {
+      "orderId": "ORD003",
+      "packageWeight": 20.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    },
+    {
+      "orderId": "ORD006",
+      "packageWeight": 40.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    },
+    {
+      "orderId": "ORD010",
+      "packageWeight": 30.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    },
+    {
+      "orderId": "ORD016",
+      "packageWeight": 30.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    },
+    {
+      "orderId": "ORD022",
+      "packageWeight": 20.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    },
+    {
+      "orderId": "ORD030",
+      "packageWeight": 20.0,
+      "priority": "LOW",
+      "reason": "Low-priority order not dispatched: no spare capacity, or delivering it would add more extra driving than the low-priority detour limit."
+    }
+  ],
+  "totalAssignedDistanceKm": 34.237,
+  "totalAssignedLoad": 485.0
+}
