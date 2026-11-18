@@ -103,6 +103,14 @@ distance = EarthRadius × c
 
 Earth radius is `6371.0088 km` (mean Earth radius). The intermediate value `a` is clamped to `[0, 1]` to avoid floating-point rounding errors near antipodal points.
 
+# Load Balancer
+
+**Live API:** https://load-balancer-velg.onrender.com
+
+**Swagger UI:** https://load-balancer-velg.onrender.com/swagger-ui/index.html
+
+**Health Check:** https://load-balancer-velg.onrender.com/actuator/health
+
 ## Validation and error handling
 
 - `orderId` and `vehicleId` are required, nonblank and limited to 100 characters.
